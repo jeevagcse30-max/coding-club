@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#183b56">
+  <meta name="description" content="Explore Coding Club competitions, hands-on workshops, hackathons, and open-source projects.">
+  <title>Activities | Coding Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html#home" aria-label="Coding Club home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>coding<span class="brand-light">club</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-home" href="index.html#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="activities.html" aria-current="page">Activities</a>
+        <a href="team.html">Our team</a>
+        <a class="nav-join" href="join.html">Join the club <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="activities section" id="activities">
+      <div class="container">
+        <div class="section-label section-label-light"><span>02</span> THINGS WE GET UP TO</div>
+        <div class="section-heading">
+          <h1>Learn a little.<br><span class="serif-accent">Build a lot.</span></h1>
+          <p>Drop in for one event or join us for the whole journey. There’s always something happening.</p>
+        </div>
+        <div class="activity-grid">
+          <article class="activity-card">
+            <div class="activity-top"><span class="activity-icon icon-lime" aria-hidden="true">⌁</span><span class="activity-number">01 / COMPETE</span></div>
+            <h2>Coding competitions</h2>
+            <p>Friendly challenges that make problem-solving feel like a game. Come solo or team up and learn as you go.</p>
+            <a href="join.html" aria-label="Join us for coding competitions">Get in the game <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="activity-card">
+            <div class="activity-top"><span class="activity-icon icon-peach" aria-hidden="true">✳</span><span class="activity-number">02 / LEARN</span></div>
+            <h2>Hands-on workshops</h2>
+            <p>Get comfortable with web basics, Python, and creative tools—one approachable, hands-on session at a time.</p>
+            <a href="join.html" aria-label="Join us for hands-on workshops">Save your seat <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="activity-card">
+            <div class="activity-top"><span class="activity-icon icon-blue" aria-hidden="true">⌘</span><span class="activity-number">03 / CREATE</span></div>
+            <h2>Campus hackathons</h2>
+            <p>Bring an idea, find your crew, and make a working prototype together. Enthusiasm beats experience.</p>
+            <a href="join.html" aria-label="Join us for campus hackathons">Make something <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="activity-card activity-card-new">
+            <div class="activity-top"><span class="activity-icon icon-mint" aria-hidden="true">↗</span><span class="activity-number">04 / GIVE BACK</span></div>
+            <h2>Open Source Sprint</h2>
+            <p>Take your first step into open source. Pair with a club buddy to find an issue, make a contribution, and share it with the community.</p>
+            <a href="join.html" aria-label="Join our new Open Source Sprint activity">Make your first PR <span aria-hidden="true">↗</span></a>
+            <span class="new-badge">NEW ACTIVITY</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="index.html#home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>coding<span class="brand-light">club</span></span>
+      </a>
+      <p>Made with curiosity (and a little caffeine) on campus.</p>
+      <div class="social-links" aria-label="Social media">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> Coding Club. Built together.</span><a href="index.html#home">Back to home ↑</a></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#432e70">
+  <meta name="description" content="Meet the Coding Club: a welcoming student-run community to learn, build, and explore technology together.">
+  <title>About | Coding Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="about-page">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html#home" aria-label="Coding Club home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>coding<span class="brand-light">club</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-home" href="index.html#home">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="activities.html">Activities</a>
+        <a href="team.html">Our team</a>
+        <a class="nav-join" href="join.html">Join the club <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro section container" id="about">
+      <div class="section-label"><span>01</span> A BIT ABOUT US</div>
+      <div class="intro-content">
+        <h1>More than just<br><span class="serif-accent">semicolons.</span></h1>
+        <div class="intro-text">
+          <p>We’re a student-run community for anyone who wants to explore technology—whether you’ve written a hundred programs or haven’t written your first line yet.</p>
+          <p>Ask questions, experiment without pressure, and work on projects you’re proud to share. Around here, learning together is the whole point.</p>
+          <a class="text-link dark-link" href="join.html">Come say hello <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="values-row">
+        <article class="value-item"><span class="value-icon" aria-hidden="true">✳</span><div><h3>Start anywhere</h3><p>First line or next big idea—we’ll meet you there.</p></div></article>
+        <article class="value-item"><span class="value-icon" aria-hidden="true">⌘</span><div><h3>Make it together</h3><p>Pair up, share what you know, and figure it out as a team.</p></div></article>
+        <article class="value-item"><span class="value-icon" aria-hidden="true">♡</span><div><h3>Keep it kind</h3><p>A friendly, inclusive space for every curious mind.</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="index.html#home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>coding<span class="brand-light">club</span></span>
+      </a>
+      <p>Made with curiosity (and a little caffeine) on campus.</p>
+      <div class="social-links" aria-label="Social media">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> Coding Club. Built together.</span><a href="index.html#home">Back to home ↑</a></div>
+  </footer>
+</body>
+</html>
